@@ -22,6 +22,7 @@ and open the template in the editor.
       <a class="navbar-brand" href="#">Apartment Management</a>
     </div>
     <ul class="nav navbar-nav pull-right">
+    <li><a href="sendbulk.php">Bulky SMS</a></li>
 
       <li><a href="logout.php">Logout</a></li>
     </ul>
@@ -33,7 +34,7 @@ and open the template in the editor.
 
 
     <div style="width: 400px;margin-left: 35%;//box-shadow: 0px 0px 5px #660066;//padding:20px;">
-        <div style='text-align: center;padding:15px;color:#2f3542;background-image:linear-gradient( white , #2c3e50);font-family: serif; //border-radius: 15% 25% 0% 25%'><b><h2>Send Tenant SMS</b></h2></div>
+        <div style='text-align: center;padding:15px;color:#2f3542;background-image:linear-gradient( white , #2c3e50);font-family: serif; //border-radius: 15% 25% 0% 25%'><b><h2>Send Single Message</b></h2></div>
  <form class="form-horizontal" action="sms.php" method="post">
      <div class="form-group" style="margin-top: 20px">
     <label class="control-label col-sm-2" for="phoneNumber">phone number:</label>

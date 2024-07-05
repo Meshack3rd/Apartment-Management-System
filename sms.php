@@ -16,8 +16,8 @@ $phoneNumber = $_POST["phoneNumber"];
 
 
 
-$apiURL = "xxxxxxxxxxx";
-$apiKey = "xxxxxxxxxxxxxxxxxxxxxxx";
+$apiURL = "xxxxxx";
+$apiKey = "xxxxxxxxxxxxxxxxxxx";
 
 $configuration = new Configuration(host: $apiURL, apiKey:$apiKey);
 $api = new SmsApi(config: $configuration);

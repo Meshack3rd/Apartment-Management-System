@@ -41,6 +41,7 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`id`, `email`, `password`) VALUES
 (1, 'ssameer.md@gmail.com', '1234'),
 (2, 'admin@gmail.com', 'admin123');
+(3, 'mesh@gmail.com', 'admin123');
 
 -- --------------------------------------------------------
 
@@ -113,6 +114,7 @@ INSERT INTO `owner` (`id`, `name`, `email`, `password`, `mobile`, `owned`) VALUE
 (7, 'imtiyaz', 'i@gmail.com', '1234', '8971509400', '15'),
 (8, 'Muheet', 'mu@gmail.com', '1234', '7418529635', '17'),
 (9, 'shahbaz', 'sh@gmail.com', '1234', '789456130', '19');
+
 
 -- --------------------------------------------------------
 
